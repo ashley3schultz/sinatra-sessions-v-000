@@ -37,7 +37,7 @@ class App < Sinatra::Base
   end
 
   get '/set_session' do
-    session[:session_id] = 1
+    session[:id] = 1
     #set session id here
 
     if session[:id] == 1
